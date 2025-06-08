@@ -34,6 +34,52 @@
   src: url('./fonts/Akatab-SemiBold.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Inter_Regular';
+  src: url('./fonts/Inter_Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter_Medium';
+  src: url('./fonts/Inter_Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter_Light';
+  src: url('./fonts/Inter_Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter_Italic';
+  src: url('./fonts/Inter_Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter_ExtraLight';
+  src: url('./fonts/Inter_ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter_Bold';
+  src: url('./fonts/Inter_Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter_Black';
+  src: url('./fonts/Inter_Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bpg_Bold';
+  src: url('./fonts/Bpg_Bold.ttf') format('truetype');
+}
+
+.Bpg_Bold {
+  font-family: Bpg_Bold, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
 
 :root {
   font-family: Akatab-Regular, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -41,7 +87,7 @@
   font-weight: 400;
   font-size: 18px;
   color-scheme: light dark;
-  color: rgba(31, 30, 30, 0.87);
+  color: #070707;
   background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -73,8 +119,18 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  @apply font-bold text-5xl line-clamp-1;
+  font-family: Bpg_Bold, serif;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: Inter, serif;
+}
+
+h3 {
+  font-size: 1em;
+  font-family: Inter, serif;
 }
 
 button {
@@ -111,15 +167,13 @@ button:focus-visible {
 
 /* ------- global custom style ------- */
 .main-body {
- @apply flex flex-col h-dvh p-10;
+ @apply flex flex-col h-dvh p-10 ml-10 mr-10;
 }
 
 .nav-bar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  @apply flex flex-row justify-between mb-20;
 }
 
 .nav-item {
-  @apply flex flex-row flex-wrap gap-4 cursor-pointer;
+  @apply flex flex-row flex-wrap gap-15 cursor-pointer;
 }
