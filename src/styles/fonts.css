@@ -1,0 +1,136 @@
+
+@font-face {
+    font-family: 'Akatab-Black';
+    src: url('./fonts/Akatab-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Akatab-Bold';
+    src: url('./fonts/Akatab-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Akatab-ExtraBold';
+    src: url('./fonts/Akatab-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Akatab-Medium';
+    src: url('./fonts/Akatab-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Akatab-Regular';
+    src: url('./fonts/Akatab-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Akatab-SemiBold';
+    src: url('./fonts/Akatab-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter_ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter_Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter_Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter_Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter_Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter_Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'NotoSansGeorgian';
+    src: url('./fonts/NotoSansGeorgian-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansGeorgian';
+    src: url('./fonts/NotoSansGeorgian-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansGeorgian';
+    src: url('./fonts/NotoSansGeorgian-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansGeorgian';
+    src: url('./fonts/NotoSansGeorgian-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansGeorgian';
+    src: url('./fonts/NotoSansGeorgian-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansGeorgian';
+    src: url('./fonts/NotoSansGeorgian-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansGeorgian';
+    src: url('./fonts/NotoSansGeorgian-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansGeorgian';
+    src: url('./fonts/NotoSansGeorgian-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansGeorgian';
+    src: url('./fonts/NotoSansGeorgian-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}

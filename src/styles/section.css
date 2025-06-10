@@ -1,0 +1,23 @@
+.section {}
+
+.section-title {
+    .title{
+        @apply cursor-pointer;
+        font-size: 30px;
+
+    }
+
+    .ge-font {
+        font-family: NotoSansGeorgian, serif;
+    }
+
+    .active {
+        font-family: NotoSansGeorgian, serif;
+        font-weight: bold;
+    }
+
+    .inactive {
+        font-weight: 300;
+        color: #40515e;
+    }
+}
