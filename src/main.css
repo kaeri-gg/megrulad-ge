@@ -4,91 +4,14 @@
   --color-purple: #6B34CB;
 }
 
-@font-face {
-  font-family: 'Akatab-Black';
-  src: url('./fonts/Akatab-Black.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Akatab-Bold';
-  src: url('./fonts/Akatab-Bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Akatab-ExtraBold';
-  src: url('./fonts/Akatab-ExtraBold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Akatab-Medium';
-  src: url('./fonts/Akatab-Medium.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Akatab-Regular';
-  src: url('./fonts/Akatab-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Akatab-SemiBold';
-  src: url('./fonts/Akatab-SemiBold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Inter_Regular';
-  src: url('./fonts/Inter_Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Inter_Medium';
-  src: url('./fonts/Inter_Medium.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Inter_Light';
-  src: url('./fonts/Inter_Light.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Inter_Italic';
-  src: url('./fonts/Inter_Italic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Inter_ExtraLight';
-  src: url('./fonts/Inter_ExtraLight.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Inter_Bold';
-  src: url('./fonts/Inter_Bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Inter_Black';
-  src: url('./fonts/Inter_Black.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Bpg_Bold';
-  src: url('./fonts/Bpg_Bold.ttf') format('truetype');
-}
-
-.Bpg_Bold {
-  font-family: Bpg_Bold, sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
-}
-
 :root {
-  font-family: Akatab-Regular, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: NotoSansGeorgian, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 18px;
   color-scheme: light dark;
   color: #070707;
-  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+  background-image: linear-gradient(to bottom, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -119,8 +42,9 @@ body {
 }
 
 h1 {
-  @apply font-bold text-5xl line-clamp-1;
-  font-family: Bpg_Bold, serif;
+  @apply font-bold text-4xl;
+  font-family: NotoSansGeorgian, serif;
+  line-height: 1.5;
 }
 
 h2 {
