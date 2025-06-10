@@ -1,9 +1,10 @@
-.section {}
+.section {
+    @apply my-10;
+}
 
 .section-title {
     .title{
-        @apply cursor-pointer text-lg;
-
+        @apply cursor-pointer text-2xl;
     }
 
     .ge-font {
