@@ -2,8 +2,7 @@
 
 .section-title {
     .title{
-        @apply cursor-pointer;
-        font-size: 30px;
+        @apply cursor-pointer text-lg;
 
     }
 

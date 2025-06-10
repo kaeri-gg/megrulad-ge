@@ -1,3 +1,7 @@
+@import "./styles/section.css";
+@import "./styles/fonts.css";
+@import "./styles/translation-section.css";
+
 @import "tailwindcss";
 
 @theme {
