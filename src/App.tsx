@@ -2,7 +2,7 @@ import NavBar from "./components/header/NavBar.tsx";
 import PageTitle from "./components/header/PageTitle..tsx";
 import SubTitle from "./components/header/SubTitle.tsx";
 import PageDescription from "./components/header/PageDescription.tsx";
-import SectionTitle from "./components/SectionTitle.tsx";
+import LanguageSwitcherHeader from "./components/language-switcher/LanguageSwitcherHeader.tsx";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <PageTitle />
       <SubTitle />
       <PageDescription />
-      <SectionTitle />
+      <LanguageSwitcherHeader />
     </div>
   );
 }

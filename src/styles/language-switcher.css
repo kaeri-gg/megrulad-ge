@@ -1,0 +1,33 @@
+.language-switcher {
+    .lang-title{
+        @apply cursor-pointer;
+
+        font-size: clamp(0.9rem, 1rem + 0.4vw, 1.5rem);
+    }
+
+    button {
+        background: none;
+        padding: 0;
+        margin: 0 10px;
+
+        &:hover {
+            background: none;
+            outline: none;
+        }
+    }
+
+    .active {
+        font-family: NotoSansGeorgian, serif;
+        font-weight: bold;
+    }
+
+    .inactive {
+        font-weight: 300;
+        color: #40515e;
+    }
+
+    .language-translation-field {
+        background: white;
+        border-radius: 5px;
+    }
+}
