@@ -9,7 +9,7 @@
     font-size: clamp(0.875rem, 0.9rem + 0.2vw, 1rem);
     color-scheme: light dark;
     color: #070707;
-    background-image: linear-gradient(to bottom, #E3EEFF 0%, #F3E7E9 100%);
+    background-image: linear-gradient(to top, #E3EEFF 0%, #F3E7E9 100%);
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -38,7 +38,7 @@ a:hover {
 
 body {
     @apply flex flex-col h-dvh;
-    font-family: Inter, serif;
+    font-family: 'Sora', system-ui, -apple-system, sans-serif;
 
     margin: 0;
     display: flex;

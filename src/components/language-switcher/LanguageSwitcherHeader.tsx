@@ -1,7 +1,12 @@
+import PlayIcon from '@public/icons/play-icon.svg?url';
+import MicIcon from '@public/icons/mic-icon.svg?url';
+import EditIcon from '@public/icons/edit-icon.svg?url';
+import ShareIcon from '@public/icons/share-icon.svg?url';
+
 const LanguageSwitcherHeader = () => {
   return (
-    <div className="language-switcher">
-      <div className="translate-input-field">
+    <div className="language-switcher-main-container">
+      <div className="language-container">
         <div className="title-wrapper">
           <button className="language-option ge-font active">მეგრული</button>
           <button className="language-option ge-font inactive">ქართული</button>
@@ -29,18 +34,42 @@ const LanguageSwitcherHeader = () => {
           </div>
         </div>
       </div>
-      <div className="translate-results">
+      <div className="language-container">
         <div className="title-wrapper">
           <button className="language-option ge-font active">მეგრული</button>
           <button className="language-option ge-font inactive">ქართული</button>
           <button className="language-option inactive">English</button>
         </div>
         <div className="result-field">
-          <div className="result-text">მეგრული</div>
-          <div className="result-text">
-            მეგრული მეგრული მეგრული მეგრული მეგრული მეგრული
+          <div className="result">
+            <span className="result-text">მეგრული</span>
+            <div className="action-items">
+              <img src={PlayIcon} className="action-icons" alt="play icon" />
+              <img src={MicIcon} className="action-icons" alt="mic icon" />
+              <img src={EditIcon} className="action-icons" alt="edit icon" />
+              <img src={ShareIcon} className="action-icons" alt="share icon" />
+            </div>
           </div>
-          <div className="result-text">მეგრული</div>
+          <div className="result">
+            <span className="result-text">
+              მეგრულიმეგრული მეგრულიმეგრული მეგრული
+            </span>
+            <div className="action-items">
+              <img src={PlayIcon} className="action-icons" alt="play icon" />
+              <img src={MicIcon} className="action-icons" alt="mic icon" />
+              <img src={EditIcon} className="action-icons" alt="edit icon" />
+              <img src={ShareIcon} className="action-icons" alt="share icon" />
+            </div>
+          </div>
+          <div className="result">
+            <span className="result-text">მეგრული</span>
+            <div className="action-items">
+              <img src={PlayIcon} className="action-icons" alt="play icon" />
+              <img src={MicIcon} className="action-icons" alt="mic icon" />
+              <img src={EditIcon} className="action-icons" alt="edit icon" />
+              <img src={ShareIcon} className="action-icons" alt="share icon" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
