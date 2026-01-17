@@ -1,0 +1,19 @@
+.hero-section {
+    padding: 3rem 0;
+}
+.main-header {
+    @apply font-bold text-4xl;
+
+    font-family: NotoSansGeorgian, serif;
+    line-height: 1.5;
+}
+
+.sub-header {
+    font-size: 2em;
+    font-family: Inter, serif;
+}
+
+.page-description {
+    font-size: 1em;
+    font-family: Inter, serif;
+}
