@@ -9,7 +9,9 @@ function App() {
     <div className="main-body">
       <div className="content-container">
         <div className="navigation-container">
-          <NavBar />
+          <div className="new-container">
+            <NavBar />
+          </div>
         </div>
         <div className="body-container">
           <HeroSection />

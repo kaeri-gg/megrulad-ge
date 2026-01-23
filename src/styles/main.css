@@ -100,41 +100,31 @@ button:focus-visible {
     }
 }
 
+
+
 /* ------- global custom style ------- */
 .main-body {
     @apply flex flex-col;
 
-    margin: 0 100px;
-    padding: 0 20px;
     flex: 1;
     justify-content: space-between;
 
-    .content-container {
-        display: flex;
-        flex-direction: column;
-    }
-    .navigation-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .body-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .footer-container {
+    .content-container, .navigation-container, .body-container, .footer-container {
         display: flex;
         flex-direction: column;
     }
 
 }
 
-
-.ge-font {
-    font-family: NotoSansGeorgian, serif;
+.new-container {
+    width: 100%;
+    max-width: 1380px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: relative;
 }
-
 
 .nav-bar {
     @apply flex flex-row justify-between;
@@ -148,9 +138,8 @@ button:focus-visible {
     font-size: clamp(0.875rem, 0.9rem + 0.2vw, 1rem);
 }
 
-@media screen and (max-width: 1024px) {
-    .main-body {
-        margin: 0 32px;
-        padding: 0 10px;
+@media screen and (max-width: 860px) {
+    .new-container {
+        padding: 0 4%;
     }
 }
