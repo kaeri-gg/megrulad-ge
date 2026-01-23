@@ -14,13 +14,27 @@
         flex-direction: row;
         justify-content: center;
         gap: 15px;
+        flex-wrap: wrap;
 
         > span {
             background: white;
             padding: 8px 16px;
             border-radius: 5px;
             font-size: 14px;
+            width: fit-content;
         }
 
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .common-words-main-container {
+        .common-words-container {
+            flex-direction: row-reverse;
+
+            > span {
+                padding: 8px;
+            }
+        }
     }
 }

@@ -150,6 +150,7 @@ button:focus-visible {
 
 @media screen and (max-width: 1024px) {
     .main-body {
-        margin: 0 64px;
+        margin: 0 32px;
+        padding: 0 10px;
     }
 }

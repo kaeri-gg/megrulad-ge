@@ -1,19 +1,32 @@
 .footer-main-container {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 20px 0;
+    font-size: 12px;
+    gap: 4px;
 
     .developers {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 10px;
-        font-size: 12px;
+        gap: 4px;
         align-items: center;
+    }
+
+    .others {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .footer-heart {
         height: 12px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-main-container {
+        flex-direction: column;
     }
 }

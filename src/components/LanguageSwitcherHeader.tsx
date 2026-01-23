@@ -18,7 +18,7 @@ const LanguageSwitcherHeader = () => {
             className="language-translation-field"
             id="translation-field-id"
             autoFocus={true}
-            rows={4}
+            rows={2}
           ></textarea>
           <div className="clear-field">X</div>
           <div className="additional-letters-selector">
