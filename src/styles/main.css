@@ -21,6 +21,9 @@
     display: flex;
     flex-direction: column;
     flex: 1;
+
+    background: linear-gradient(to top, #E3EEFF 0%, #F3E7E9 100%) no-repeat scroll;
+
 }
 
 html,
@@ -47,11 +50,9 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    min-height: 100vh;
+    min-height: 100%;
 
     background-size: 100% 100%;
-    background: linear-gradient(to top, #E3EEFF 0%, #F3E7E9 100%) no-repeat scroll;
-
 }
 
 h1 {
@@ -106,25 +107,29 @@ button:focus-visible {
     margin: 0 100px;
     padding: 0 20px;
     flex: 1;
-
-    .navigation-container {
-        display: flex;
-        flex-direction: column;
-    }
+    justify-content: space-between;
 
     .content-container {
         display: flex;
         flex-direction: column;
     }
+    .navigation-container {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .body-container {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
-.footer-container {
-    display: flex;
-    flex-direction: column;
-}
 
 .ge-font {
     font-family: NotoSansGeorgian, serif;
@@ -143,3 +148,8 @@ button:focus-visible {
     font-size: clamp(0.875rem, 0.9rem + 0.2vw, 1rem);
 }
 
+@media screen and (max-width: 1024px) {
+    .main-body {
+        margin: 0 64px;
+    }
+}

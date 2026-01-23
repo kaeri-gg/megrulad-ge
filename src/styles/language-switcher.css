@@ -116,3 +116,9 @@
     }
 
 }
+
+@media screen and (max-width: 1024px) {
+    .language-switcher-main-container {
+        flex-direction: column;
+    }
+}

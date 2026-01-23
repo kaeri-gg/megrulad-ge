@@ -7,13 +7,15 @@ import Footer from './components/Footer.tsx';
 function App() {
   return (
     <div className="main-body">
-      <div className="navigation-container">
-        <NavBar />
-      </div>
       <div className="content-container">
-        <HeroSection />
-        <LanguageSwitcherHeader />
-        <CommonWords />
+        <div className="navigation-container">
+          <NavBar />
+        </div>
+        <div className="body-container">
+          <HeroSection />
+          <LanguageSwitcherHeader />
+          <CommonWords />
+        </div>
       </div>
       <div className="footer-container">
         <Footer />
