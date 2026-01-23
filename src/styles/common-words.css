@@ -1,12 +1,12 @@
 .common-words-main-container {
     display: flex;
     flex-direction: column;
-    padding: 30px 0;
+    margin: 32px 0;
 
     .common-words-header {
         display: flex;
         justify-content: center;
-        padding: 24px 0;
+        margin: 24px 0;
     }
 
     .common-words-container {
@@ -14,13 +14,27 @@
         flex-direction: row;
         justify-content: center;
         gap: 15px;
+        flex-wrap: wrap;
 
         > span {
             background: white;
             padding: 8px 16px;
             border-radius: 5px;
             font-size: 14px;
+            width: fit-content;
         }
 
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .common-words-main-container {
+        .common-words-container {
+            flex-direction: row-reverse;
+
+            > span {
+                padding: 8px;
+            }
+        }
     }
 }
